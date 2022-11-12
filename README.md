@@ -1,5 +1,5 @@
 # bank-respublika
-Jinja Project
+Flask Project
 
 <img align="left" alt="Bank" width="1200px" src="https://i.ibb.co/CsWpPsw/gfg.png" /><br>
 
