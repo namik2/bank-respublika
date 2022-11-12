@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/extension.css">
+    <title>Bank Respublika</title>
+    <link rel="shortcut icon" type="image/png" href="https://www.bankrespublika.az/site/views/site/images/favicon.png" />
+</head>
+<body>
+    <h2>Kartın onlayn uzadılması</h3>
+        <form action="" method="POST">
+            <div class="content">
+                <div class="boxx">
+                <div class="row">
+                    
+                    <div class="bloks">
+                    <div class="title">
+                    </div>
+                    {{form.card_number.label}}
+                    <br>
+                    
+                    {{form.card_number(class = "bInt")}}
+                    
+               
+        
+        
+        
+        
+        
+             
+                    <div>
+                   
+                    
+                    {{form.pasport_number.label}}
+                    <br>
+                   
+                    {{form.pasport_select(style = "border:none;
+                    background-color:white;
+                    ")}}
+        
+                     
+                        
+              
+                    {{form.pasport_number (class = "bInt2")}}
+              
+              
+                        
+        
+                       
+                        </div>
+                    </div>
+                        
+                            <div class="title">
+                            </div>
+        
+                        
+                            <br>
+                            
+        
+                                {{form.order.label }}
+                                <div class="input">
+                                    <span class="labelradio">10 AZN</span>
+                                    
+
+                                {{form.order(class = "requiredField")}}
+
+                               
+                                 </div>
+                                
+                                  
+        
+        
+        
+        
+                
+                                
+                                  
+        
+                                    {{form.number.label}}
+                                    <br>
+        
+                                    <div class="number_selected">
+                                    
+        
+        
+                                    {{form.number_select(style = "border:none;
+                                    background-color:white;
+                                    ")}}
+        
+                                    {{form.number (style = "border:none;")}}
+        
+                                        <br>
+                                 
+                
+                                         </div>
+                                      
+        
+        
+                                      
+                                            <div class="title">
+                                            </div>
+        
+                                            {{form.filial_select.label}}
+                                            <br>
+                             
+                                           {{form.filial_select (class = "filial_selected")}}
+                               
+                             </div>
+                            
+                             <div type = "submit"><button class="gonder">Gonder</button></div>
+                        </div>
+            
+                        
+                    </div>
+        </form>
+
+
+</body>
+</html>

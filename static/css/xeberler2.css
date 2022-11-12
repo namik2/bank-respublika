@@ -1,0 +1,85 @@
+.content {
+    width: 100%;
+    max-width: 1440px;
+    padding: 0px 40px;
+    position: relative;
+    margin: 0px auto;
+}
+.article {
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 0 24px 0 rgb(212 213 214 / 50%);
+    position: relative;
+    margin: 30px 0px 50px 0px;
+    padding: 10px 50px 100px 250px;
+}
+
+.title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sosial h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sosial{
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    width: 200px;
+    margin: 0px;
+    padding: 20px;
+}
+
+.article2{
+    border-radius: 4px;
+    box-shadow: 2px 2px 50px 0 rgb(107 125 230 / 10%);
+    background-color: #fff;
+    padding: 20px;
+}
+
+ul::before{
+    color: #0097bd;
+}  
+
+.article2 p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.article2 ul li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fab{
+font-size: 40px;
+margin-bottom: 10px;
+}
+.fa-facebook{
+color: #306ead;
+}
+.fa-twitter-square{
+color: #00c0e7;
+}
+.fa-google-plus{
+color: #ff3d2f;
+}
+.fa-linkedin{
+color: #0097bd;
+}
+
+
+.sosial ul li{
+    list-style-type: none;
+}
+
+
+ .article2 ul {
+    list-style: none; /* Remove default bullets */
+  }
+  
+  .article2 ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: blue; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }

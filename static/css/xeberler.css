@@ -1,0 +1,234 @@
+.card-header{
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+    }
+    .card-header img{
+    min-height: 100%;
+height: 100%;
+min-width: 100%;
+opacity: 1;
+position: absolute;
+top: -9999px;
+bottom: -9999px;
+left: -9999px;
+right: -9999px;
+margin: auto;
+width: auto;
+    border-radius: 10px;
+    }
+    .card-text{
+    font-size: 15px;
+line-height: 21px;
+max-width: 600px;
+}
+.top{
+position: absolute;
+right: 8px;
+padding: 2px;
+}
+@media only screen and (min-width: 50px) and (max-width: 700px){
+.card-header img {
+position: relative;
+height: auto;
+width: 100%;
+top: auto;
+left: auto;
+right: auto;
+bottom: auto;
+    border-radius: 10px;
+}
+.card-header {
+width: 100%;
+height: auto;
+}
+.top {
+position: absolute;
+top: 0px;
+right: 0px;
+
+}
+.top .date {
+padding: 2px 15px;
+background: #fff;
+border-radius: 6px;
+font-size: 12px;
+}
+    }
+h2 {  
+padding: 25px 0;  
+text-align: center;  
+color: #fff;  
+background: #7c8490;  
+}  
+footer {   
+color: white;  
+margin-top:100px;  
+}  
+footer a {  
+color: black;  
+font-size: 14px;  
+transition-duration: 0.2s;  
+}  
+.container-fluat{
+padding: 40px;
+}
+footer a:hover {  
+color: #FA944B;  
+text-decoration: none;  
+}  
+.copy {  
+font-size: 12px;  
+padding: 10px;  
+border-top: 1px solid #FFFFFF;  
+}  
+.footer-middle {  
+padding-top: 2em;  
+color: black;  
+}  
+ul.social-network {  
+list-style: none;  
+display: inline;  
+margin-left: 0 !important;  
+padding: 0;  
+}  
+ul.social-network li {  
+display: inline;  
+margin: 0 5px;  
+}  
+
+.social-network a.icoFacebook:hover {  
+background-color: #3B5998;  
+}  
+.social-network a.icoLinkedin:hover {  
+background-color: #007bb7;  
+}  
+.social-network a.icoFacebook:hover i  
+{  
+color: #fff;  
+}  
+.social-network a.icoLinkedin:hover i {  
+color: #fff;  
+}  
+.social-network a.socialIcon:hover {  
+color: #44BCDD;  
+}  
+.socialHoverClass {  
+color: #44BCDD;  
+}  
+.social-circle li a {  
+display: inline-block;  
+position: relative;  
+margin: 0 auto 0 auto;  
+-moz-border-radius: 50%;  
+-webkit-border-radius: 50%;  
+border-radius: 50%;  
+text-align: center;  
+width: 30px;  
+height: 30px;  
+font-size: 15px;  
+}
+.social-circle li i {  
+margin: 0;  
+line-height: 30px;  
+text-align: center;  
+}  
+.social-circle li a:hover i  
+{  
+-moz-transform: rotate(360deg);  
+-webkit-transform: rotate(360deg);  
+-ms--transform: rotate(360deg);  
+transform: rotate(360deg);  
+-webkit-transition: all 0.2s;  
+-moz-transition: all 0.2s;  
+-o-transition: all 0.2s;  
+-ms-transition: all 0.2s;  
+transition: all 0.2s;  
+}
+
+.text-center{
+float: left;
+}
+
+.triggeredHover {  
+-moz-transform: rotate(360deg);  
+-webkit-transform: rotate(360deg);  
+-ms--transform: rotate(360deg);  
+transform: rotate(360deg);  
+-webkit-transition: all 0.2s;  
+-moz-transition: all 0.2s;  
+-o-transition: all 0.2s;  
+-ms-transition: all 0.2s;  
+transition: all 0.2s;  
+}  
+.social-circle i {  
+color: #595959;  
+-webkit-transition: all 0.8s;  
+-moz-transition: all 0.8s;  
+-o-transition: all 0.8s;  
+-ms-transition: all 0.8s;  
+transition: all 0.8s;  
+}  
+.social-network a {  
+background-color: #F9F9F9;  
+}  
+.social-network a:hover {  
+background: #ff304d;  
+}  
+.footer-pad h4{
+font-family: Gilroy;
+font-size: 16px;
+font-weight: 500;
+padding: 15px 0px;
+display: block;
+}
+
+#logos{
+text-align: right;
+float: right;
+}
+.w100{
+margin: 20px 0;
+}
+.xett{
+border: solid rgb(209, 209, 209) 0.5px;
+}
+
+.card-title:hover{
+    color: #007bb7;
+    cursor: pointer;
+}
+
+img{
+    cursor:pointer
+}
+.card-title{
+    color: black;
+}
+
+.col-md-2 img{
+    display: block;
+    border-radius: 10px;
+    width: 55px;
+    height: 55px;
+    box-shadow: 0 6px 8px 0 rgb(71 94 208 / 40%);
+    margin: 0px auto;
+    }
+    .col-md-2 span{
+        position: relative;
+        top: 10px;
+    }
+.article{
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 0 24px 0 rgb(212 213 214 / 50%);
+    position: relative;
+    margin: 30px 0px 50px 0px;
+    padding: 10px 50px 100px 250px;
+}
+
+.wh{
+    max-width: 10.666667%;
+}
