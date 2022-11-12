@@ -1,7 +1,7 @@
 # bank-respublika
 Jinja Project
 
-<img align="left" alt="Bank" width="400px" src="https://i.ibb.co/CsWpPsw/gfg.png" />
+<img align="left" alt="Bank" width="1200px" src="https://i.ibb.co/CsWpPsw/gfg.png" /><br>
 
 ### Hi there 👋, I'm Namik
 
